@@ -1,0 +1,8 @@
+<?php
+    // see - https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens
+    $config['bot_token'] = 'our_slack_channel_api_token';
+
+    // see https://jira.atlassian.com/browse/ID-6378
+    $config['jira_rest_url'] = 'https://pacificbrands.atlassian.net/rest/api/2/search';
+    $config['jira_login']    = 'your_jira_login_email';
+    $config['jira_token']    = 'your_jira_account_token';
